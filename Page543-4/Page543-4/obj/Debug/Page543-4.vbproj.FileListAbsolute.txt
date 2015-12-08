@@ -1,1 +1,9 @@
 C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\bin\Debug\Page543-4.exe.config
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\bin\Debug\Page543-4.exe
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\bin\Debug\Page543-4.pdb
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\bin\Debug\Page543-4.xml
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543_4.Resources.resources
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.vbproj.GenerateResource.Cache
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.exe
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.xml
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.pdb

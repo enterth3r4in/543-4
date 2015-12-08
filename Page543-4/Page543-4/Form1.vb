@@ -19,6 +19,8 @@
         lblScoopCostOutput.Text = String.Empty
         lblAdditionCostOutput.Text = String.Empty
         lblTotalCostOutput.Text = String.Empty
+
+        groupBoxScoops.Focus()
     End Sub
 
     Private Sub buttonOrderNow_Click(sender As Object, e As EventArgs) Handles buttonOrderNow.Click

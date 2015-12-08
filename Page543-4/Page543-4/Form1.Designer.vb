@@ -50,7 +50,9 @@ Partial Class Form1
         Me.scoopCost = New System.Windows.Forms.Label()
         Me.additionsCost = New System.Windows.Forms.Label()
         Me.lblTotalCostOutput = New System.Windows.Forms.Label()
-        Me.lblTotalCost = New System.Windows.Forms.Label()
+        Me.totalCost = New System.Windows.Forms.Label()
+        Me.lblScoopCostOutput = New System.Windows.Forms.Label()
+        Me.lblAdditionCostOutput = New System.Windows.Forms.Label()
         Me.groupBoxScoops.SuspendLayout()
         Me.groupBoxFlavors.SuspendLayout()
         Me.groupBoxAdditions.SuspendLayout()
@@ -59,10 +61,11 @@ Partial Class Form1
         '
         'buttonExitProgram
         '
-        Me.buttonExitProgram.Location = New System.Drawing.Point(297, 423)
+        Me.buttonExitProgram.Location = New System.Drawing.Point(315, 440)
         Me.buttonExitProgram.Name = "buttonExitProgram"
         Me.buttonExitProgram.Size = New System.Drawing.Size(75, 23)
-        Me.buttonExitProgram.TabIndex = 0
+        Me.buttonExitProgram.TabIndex = 10
+        Me.buttonExitProgram.TabStop = False
         Me.buttonExitProgram.Text = "Exit Order"
         Me.buttonExitProgram.UseVisualStyleBackColor = True
         '
@@ -74,24 +77,24 @@ Partial Class Form1
         Me.Label1.Location = New System.Drawing.Point(21, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(340, 22)
-        Me.Label1.TabIndex = 4
+        Me.Label1.TabIndex = 10
         Me.Label1.Text = "Sanderson's Ice Cream Sundaes"
         '
         'buttonOrderNow
         '
-        Me.buttonOrderNow.Location = New System.Drawing.Point(12, 423)
+        Me.buttonOrderNow.Location = New System.Drawing.Point(12, 440)
         Me.buttonOrderNow.Name = "buttonOrderNow"
         Me.buttonOrderNow.Size = New System.Drawing.Size(75, 23)
-        Me.buttonOrderNow.TabIndex = 5
+        Me.buttonOrderNow.TabIndex = 3
         Me.buttonOrderNow.Text = "Order Now"
         Me.buttonOrderNow.UseVisualStyleBackColor = True
         '
         'buttonClearForm
         '
-        Me.buttonClearForm.Location = New System.Drawing.Point(150, 423)
+        Me.buttonClearForm.Location = New System.Drawing.Point(166, 440)
         Me.buttonClearForm.Name = "buttonClearForm"
         Me.buttonClearForm.Size = New System.Drawing.Size(75, 23)
-        Me.buttonClearForm.TabIndex = 6
+        Me.buttonClearForm.TabIndex = 4
         Me.buttonClearForm.Text = "Clear Order"
         Me.buttonClearForm.UseVisualStyleBackColor = True
         '
@@ -104,7 +107,7 @@ Partial Class Form1
         Me.groupBoxScoops.Location = New System.Drawing.Point(12, 48)
         Me.groupBoxScoops.Name = "groupBoxScoops"
         Me.groupBoxScoops.Size = New System.Drawing.Size(112, 91)
-        Me.groupBoxScoops.TabIndex = 7
+        Me.groupBoxScoops.TabIndex = 0
         Me.groupBoxScoops.TabStop = False
         Me.groupBoxScoops.Text = "Scoops"
         '
@@ -150,7 +153,7 @@ Partial Class Form1
         Me.groupBoxFlavors.Location = New System.Drawing.Point(12, 145)
         Me.groupBoxFlavors.Name = "groupBoxFlavors"
         Me.groupBoxFlavors.Size = New System.Drawing.Size(126, 100)
-        Me.groupBoxFlavors.TabIndex = 8
+        Me.groupBoxFlavors.TabIndex = 1
         Me.groupBoxFlavors.TabStop = False
         Me.groupBoxFlavors.Text = "Flavors"
         '
@@ -199,10 +202,10 @@ Partial Class Form1
         Me.groupBoxAdditions.Controls.Add(Me.chkCherries)
         Me.groupBoxAdditions.Controls.Add(Me.chkWhipCream)
         Me.groupBoxAdditions.Controls.Add(Me.chkPeanuts)
-        Me.groupBoxAdditions.Location = New System.Drawing.Point(255, 48)
+        Me.groupBoxAdditions.Location = New System.Drawing.Point(273, 48)
         Me.groupBoxAdditions.Name = "groupBoxAdditions"
         Me.groupBoxAdditions.Size = New System.Drawing.Size(117, 250)
-        Me.groupBoxAdditions.TabIndex = 9
+        Me.groupBoxAdditions.TabIndex = 2
         Me.groupBoxAdditions.TabStop = False
         Me.groupBoxAdditions.Text = "Additions"
         '
@@ -308,13 +311,15 @@ Partial Class Form1
         '
         'groupBoxTotal
         '
-        Me.groupBoxTotal.Controls.Add(Me.lblTotalCost)
+        Me.groupBoxTotal.Controls.Add(Me.lblAdditionCostOutput)
+        Me.groupBoxTotal.Controls.Add(Me.lblScoopCostOutput)
+        Me.groupBoxTotal.Controls.Add(Me.totalCost)
         Me.groupBoxTotal.Controls.Add(Me.lblTotalCostOutput)
         Me.groupBoxTotal.Controls.Add(Me.additionsCost)
         Me.groupBoxTotal.Controls.Add(Me.scoopCost)
         Me.groupBoxTotal.Location = New System.Drawing.Point(12, 356)
         Me.groupBoxTotal.Name = "groupBoxTotal"
-        Me.groupBoxTotal.Size = New System.Drawing.Size(360, 61)
+        Me.groupBoxTotal.Size = New System.Drawing.Size(378, 78)
         Me.groupBoxTotal.TabIndex = 10
         Me.groupBoxTotal.TabStop = False
         Me.groupBoxTotal.Text = "Costs and Total"
@@ -322,19 +327,19 @@ Partial Class Form1
         'scoopCost
         '
         Me.scoopCost.AutoSize = True
-        Me.scoopCost.Location = New System.Drawing.Point(18, 16)
+        Me.scoopCost.Location = New System.Drawing.Point(7, 22)
         Me.scoopCost.Name = "scoopCost"
         Me.scoopCost.Size = New System.Drawing.Size(68, 13)
-        Me.scoopCost.TabIndex = 0
+        Me.scoopCost.TabIndex = 10
         Me.scoopCost.Text = "Scoop Cost: "
         '
         'additionsCost
         '
         Me.additionsCost.AutoSize = True
-        Me.additionsCost.Location = New System.Drawing.Point(6, 34)
+        Me.additionsCost.Location = New System.Drawing.Point(6, 53)
         Me.additionsCost.Name = "additionsCost"
         Me.additionsCost.Size = New System.Drawing.Size(80, 13)
-        Me.additionsCost.TabIndex = 1
+        Me.additionsCost.TabIndex = 10
         Me.additionsCost.Text = "Additions Cost: "
         '
         'lblTotalCostOutput
@@ -343,20 +348,44 @@ Partial Class Form1
         Me.lblTotalCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblTotalCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTotalCostOutput.ForeColor = System.Drawing.Color.DarkGreen
-        Me.lblTotalCostOutput.Location = New System.Drawing.Point(249, 16)
+        Me.lblTotalCostOutput.Location = New System.Drawing.Point(267, 16)
         Me.lblTotalCostOutput.Name = "lblTotalCostOutput"
         Me.lblTotalCostOutput.Size = New System.Drawing.Size(105, 23)
-        Me.lblTotalCostOutput.TabIndex = 2
+        Me.lblTotalCostOutput.TabIndex = 10
         Me.lblTotalCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'lblTotalCost
+        'totalCost
         '
-        Me.lblTotalCost.AutoSize = True
-        Me.lblTotalCost.Location = New System.Drawing.Point(185, 22)
-        Me.lblTotalCost.Name = "lblTotalCost"
-        Me.lblTotalCost.Size = New System.Drawing.Size(58, 13)
-        Me.lblTotalCost.TabIndex = 4
-        Me.lblTotalCost.Text = "Total Cost:"
+        Me.totalCost.AutoSize = True
+        Me.totalCost.Location = New System.Drawing.Point(203, 22)
+        Me.totalCost.Name = "totalCost"
+        Me.totalCost.Size = New System.Drawing.Size(58, 13)
+        Me.totalCost.TabIndex = 10
+        Me.totalCost.Text = "Total Cost:"
+        '
+        'lblScoopCostOutput
+        '
+        Me.lblScoopCostOutput.BackColor = System.Drawing.Color.White
+        Me.lblScoopCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblScoopCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblScoopCostOutput.ForeColor = System.Drawing.Color.DarkGreen
+        Me.lblScoopCostOutput.Location = New System.Drawing.Point(81, 16)
+        Me.lblScoopCostOutput.Name = "lblScoopCostOutput"
+        Me.lblScoopCostOutput.Size = New System.Drawing.Size(105, 23)
+        Me.lblScoopCostOutput.TabIndex = 10
+        Me.lblScoopCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'lblAdditionCostOutput
+        '
+        Me.lblAdditionCostOutput.BackColor = System.Drawing.Color.White
+        Me.lblAdditionCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblAdditionCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAdditionCostOutput.ForeColor = System.Drawing.Color.DarkGreen
+        Me.lblAdditionCostOutput.Location = New System.Drawing.Point(81, 47)
+        Me.lblAdditionCostOutput.Name = "lblAdditionCostOutput"
+        Me.lblAdditionCostOutput.Size = New System.Drawing.Size(105, 23)
+        Me.lblAdditionCostOutput.TabIndex = 10
+        Me.lblAdditionCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Form1
         '
@@ -364,7 +393,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Page543_4.My.Resources.Resources.ice_cream
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(384, 458)
+        Me.ClientSize = New System.Drawing.Size(402, 475)
         Me.Controls.Add(Me.groupBoxTotal)
         Me.Controls.Add(Me.groupBoxAdditions)
         Me.Controls.Add(Me.groupBoxFlavors)
@@ -415,9 +444,11 @@ Partial Class Form1
     Friend WithEvents chkWhipCream As System.Windows.Forms.CheckBox
     Friend WithEvents chkPeanuts As System.Windows.Forms.CheckBox
     Friend WithEvents groupBoxTotal As System.Windows.Forms.GroupBox
-    Friend WithEvents lblTotalCost As System.Windows.Forms.Label
+    Friend WithEvents totalCost As System.Windows.Forms.Label
     Friend WithEvents lblTotalCostOutput As System.Windows.Forms.Label
     Friend WithEvents additionsCost As System.Windows.Forms.Label
     Friend WithEvents scoopCost As System.Windows.Forms.Label
+    Friend WithEvents lblAdditionCostOutput As System.Windows.Forms.Label
+    Friend WithEvents lblScoopCostOutput As System.Windows.Forms.Label
 
 End Class

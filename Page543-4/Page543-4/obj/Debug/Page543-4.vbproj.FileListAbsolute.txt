@@ -7,3 +7,4 @@ C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.vb
 C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.exe
 C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.xml
 C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543-4.pdb
+C:\Users\as600\Documents\GitHub\543-4\Page543-4\Page543-4\obj\Debug\Page543_4.Form1.resources

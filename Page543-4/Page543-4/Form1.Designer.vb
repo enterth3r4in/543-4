@@ -118,7 +118,6 @@ Partial Class Form1
         Me.rdoOneScoop.Name = "rdoOneScoop"
         Me.rdoOneScoop.Size = New System.Drawing.Size(94, 17)
         Me.rdoOneScoop.TabIndex = 0
-        Me.rdoOneScoop.TabStop = True
         Me.rdoOneScoop.Text = "Single (One/1)"
         Me.rdoOneScoop.UseVisualStyleBackColor = True
         '
@@ -129,7 +128,6 @@ Partial Class Form1
         Me.rdoTwoScoop.Name = "rdoTwoScoop"
         Me.rdoTwoScoop.Size = New System.Drawing.Size(100, 17)
         Me.rdoTwoScoop.TabIndex = 1
-        Me.rdoTwoScoop.TabStop = True
         Me.rdoTwoScoop.Text = "Double (Two/2)"
         Me.rdoTwoScoop.UseVisualStyleBackColor = True
         '
@@ -140,7 +138,6 @@ Partial Class Form1
         Me.rdoThreeScoop.Name = "rdoThreeScoop"
         Me.rdoThreeScoop.Size = New System.Drawing.Size(99, 17)
         Me.rdoThreeScoop.TabIndex = 2
-        Me.rdoThreeScoop.TabStop = True
         Me.rdoThreeScoop.Text = "Triple (Three/3)"
         Me.rdoThreeScoop.UseVisualStyleBackColor = True
         '
@@ -164,7 +161,6 @@ Partial Class Form1
         Me.rdoMintChocChip.Name = "rdoMintChocChip"
         Me.rdoMintChocChip.Size = New System.Drawing.Size(120, 17)
         Me.rdoMintChocChip.TabIndex = 0
-        Me.rdoMintChocChip.TabStop = True
         Me.rdoMintChocChip.Text = "Mint Chocolate Chip"
         Me.rdoMintChocChip.UseVisualStyleBackColor = True
         '
@@ -175,7 +171,6 @@ Partial Class Form1
         Me.rdoSaltCaramel.Name = "rdoSaltCaramel"
         Me.rdoSaltCaramel.Size = New System.Drawing.Size(96, 17)
         Me.rdoSaltCaramel.TabIndex = 1
-        Me.rdoSaltCaramel.TabStop = True
         Me.rdoSaltCaramel.Text = "Salted Caramel"
         Me.rdoSaltCaramel.UseVisualStyleBackColor = True
         '
@@ -186,7 +181,6 @@ Partial Class Form1
         Me.rdoFudgeBrownie.Name = "rdoFudgeBrownie"
         Me.rdoFudgeBrownie.Size = New System.Drawing.Size(96, 17)
         Me.rdoFudgeBrownie.TabIndex = 2
-        Me.rdoFudgeBrownie.TabStop = True
         Me.rdoFudgeBrownie.Text = "Fudge Brownie"
         Me.rdoFudgeBrownie.UseVisualStyleBackColor = True
         '

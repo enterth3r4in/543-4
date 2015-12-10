@@ -28,31 +28,31 @@ Partial Class Form1
         Me.buttonOrderNow = New System.Windows.Forms.Button()
         Me.buttonClearForm = New System.Windows.Forms.Button()
         Me.groupBoxScoops = New System.Windows.Forms.GroupBox()
-        Me.rdoOneScoop = New System.Windows.Forms.RadioButton()
-        Me.rdoTwoScoop = New System.Windows.Forms.RadioButton()
         Me.rdoThreeScoop = New System.Windows.Forms.RadioButton()
+        Me.rdoTwoScoop = New System.Windows.Forms.RadioButton()
+        Me.rdoOneScoop = New System.Windows.Forms.RadioButton()
         Me.groupBoxFlavors = New System.Windows.Forms.GroupBox()
-        Me.rdoMintChocChip = New System.Windows.Forms.RadioButton()
-        Me.rdoSaltCaramel = New System.Windows.Forms.RadioButton()
         Me.rdoFudgeBrownie = New System.Windows.Forms.RadioButton()
+        Me.rdoSaltCaramel = New System.Windows.Forms.RadioButton()
+        Me.rdoMintChocChip = New System.Windows.Forms.RadioButton()
         Me.groupBoxAdditions = New System.Windows.Forms.GroupBox()
-        Me.chkPeanuts = New System.Windows.Forms.CheckBox()
-        Me.chkWhipCream = New System.Windows.Forms.CheckBox()
-        Me.chkCherries = New System.Windows.Forms.CheckBox()
-        Me.chkKiwi = New System.Windows.Forms.CheckBox()
-        Me.chkOreo = New System.Windows.Forms.CheckBox()
-        Me.chkMMS = New System.Windows.Forms.CheckBox()
-        Me.chkStrawberries = New System.Windows.Forms.CheckBox()
-        Me.chkBrownieChunk = New System.Windows.Forms.CheckBox()
-        Me.chkCookieDough = New System.Windows.Forms.CheckBox()
         Me.chkHotFudge = New System.Windows.Forms.CheckBox()
+        Me.chkCookieDough = New System.Windows.Forms.CheckBox()
+        Me.chkBrownieChunk = New System.Windows.Forms.CheckBox()
+        Me.chkStrawberries = New System.Windows.Forms.CheckBox()
+        Me.chkMMS = New System.Windows.Forms.CheckBox()
+        Me.chkOreo = New System.Windows.Forms.CheckBox()
+        Me.chkKiwi = New System.Windows.Forms.CheckBox()
+        Me.chkCherries = New System.Windows.Forms.CheckBox()
+        Me.chkWhipCream = New System.Windows.Forms.CheckBox()
+        Me.chkPeanuts = New System.Windows.Forms.CheckBox()
         Me.groupBoxTotal = New System.Windows.Forms.GroupBox()
-        Me.scoopCost = New System.Windows.Forms.Label()
-        Me.additionsCost = New System.Windows.Forms.Label()
-        Me.lblTotalCostOutput = New System.Windows.Forms.Label()
-        Me.totalCost = New System.Windows.Forms.Label()
-        Me.lblScoopCostOutput = New System.Windows.Forms.Label()
         Me.lblAdditionCostOutput = New System.Windows.Forms.Label()
+        Me.lblScoopCostOutput = New System.Windows.Forms.Label()
+        Me.totalCost = New System.Windows.Forms.Label()
+        Me.lblTotalCostOutput = New System.Windows.Forms.Label()
+        Me.additionsCost = New System.Windows.Forms.Label()
+        Me.scoopCost = New System.Windows.Forms.Label()
         Me.groupBoxScoops.SuspendLayout()
         Me.groupBoxFlavors.SuspendLayout()
         Me.groupBoxAdditions.SuspendLayout()
@@ -111,15 +111,15 @@ Partial Class Form1
         Me.groupBoxScoops.TabStop = False
         Me.groupBoxScoops.Text = "Scoops"
         '
-        'rdoOneScoop
+        'rdoThreeScoop
         '
-        Me.rdoOneScoop.AutoSize = True
-        Me.rdoOneScoop.Location = New System.Drawing.Point(6, 19)
-        Me.rdoOneScoop.Name = "rdoOneScoop"
-        Me.rdoOneScoop.Size = New System.Drawing.Size(94, 17)
-        Me.rdoOneScoop.TabIndex = 0
-        Me.rdoOneScoop.Text = "Single (One/1)"
-        Me.rdoOneScoop.UseVisualStyleBackColor = True
+        Me.rdoThreeScoop.AutoSize = True
+        Me.rdoThreeScoop.Location = New System.Drawing.Point(6, 65)
+        Me.rdoThreeScoop.Name = "rdoThreeScoop"
+        Me.rdoThreeScoop.Size = New System.Drawing.Size(99, 17)
+        Me.rdoThreeScoop.TabIndex = 2
+        Me.rdoThreeScoop.Text = "Triple (Three/3)"
+        Me.rdoThreeScoop.UseVisualStyleBackColor = True
         '
         'rdoTwoScoop
         '
@@ -131,15 +131,15 @@ Partial Class Form1
         Me.rdoTwoScoop.Text = "Double (Two/2)"
         Me.rdoTwoScoop.UseVisualStyleBackColor = True
         '
-        'rdoThreeScoop
+        'rdoOneScoop
         '
-        Me.rdoThreeScoop.AutoSize = True
-        Me.rdoThreeScoop.Location = New System.Drawing.Point(6, 65)
-        Me.rdoThreeScoop.Name = "rdoThreeScoop"
-        Me.rdoThreeScoop.Size = New System.Drawing.Size(99, 17)
-        Me.rdoThreeScoop.TabIndex = 2
-        Me.rdoThreeScoop.Text = "Triple (Three/3)"
-        Me.rdoThreeScoop.UseVisualStyleBackColor = True
+        Me.rdoOneScoop.AutoSize = True
+        Me.rdoOneScoop.Location = New System.Drawing.Point(6, 19)
+        Me.rdoOneScoop.Name = "rdoOneScoop"
+        Me.rdoOneScoop.Size = New System.Drawing.Size(94, 17)
+        Me.rdoOneScoop.TabIndex = 0
+        Me.rdoOneScoop.Text = "Single (One/1)"
+        Me.rdoOneScoop.UseVisualStyleBackColor = True
         '
         'groupBoxFlavors
         '
@@ -154,15 +154,15 @@ Partial Class Form1
         Me.groupBoxFlavors.TabStop = False
         Me.groupBoxFlavors.Text = "Flavors"
         '
-        'rdoMintChocChip
+        'rdoFudgeBrownie
         '
-        Me.rdoMintChocChip.AutoSize = True
-        Me.rdoMintChocChip.Location = New System.Drawing.Point(6, 19)
-        Me.rdoMintChocChip.Name = "rdoMintChocChip"
-        Me.rdoMintChocChip.Size = New System.Drawing.Size(120, 17)
-        Me.rdoMintChocChip.TabIndex = 0
-        Me.rdoMintChocChip.Text = "Mint Chocolate Chip"
-        Me.rdoMintChocChip.UseVisualStyleBackColor = True
+        Me.rdoFudgeBrownie.AutoSize = True
+        Me.rdoFudgeBrownie.Location = New System.Drawing.Point(6, 65)
+        Me.rdoFudgeBrownie.Name = "rdoFudgeBrownie"
+        Me.rdoFudgeBrownie.Size = New System.Drawing.Size(96, 17)
+        Me.rdoFudgeBrownie.TabIndex = 2
+        Me.rdoFudgeBrownie.Text = "Fudge Brownie"
+        Me.rdoFudgeBrownie.UseVisualStyleBackColor = True
         '
         'rdoSaltCaramel
         '
@@ -174,15 +174,15 @@ Partial Class Form1
         Me.rdoSaltCaramel.Text = "Salted Caramel"
         Me.rdoSaltCaramel.UseVisualStyleBackColor = True
         '
-        'rdoFudgeBrownie
+        'rdoMintChocChip
         '
-        Me.rdoFudgeBrownie.AutoSize = True
-        Me.rdoFudgeBrownie.Location = New System.Drawing.Point(6, 65)
-        Me.rdoFudgeBrownie.Name = "rdoFudgeBrownie"
-        Me.rdoFudgeBrownie.Size = New System.Drawing.Size(96, 17)
-        Me.rdoFudgeBrownie.TabIndex = 2
-        Me.rdoFudgeBrownie.Text = "Fudge Brownie"
-        Me.rdoFudgeBrownie.UseVisualStyleBackColor = True
+        Me.rdoMintChocChip.AutoSize = True
+        Me.rdoMintChocChip.Location = New System.Drawing.Point(6, 19)
+        Me.rdoMintChocChip.Name = "rdoMintChocChip"
+        Me.rdoMintChocChip.Size = New System.Drawing.Size(120, 17)
+        Me.rdoMintChocChip.TabIndex = 0
+        Me.rdoMintChocChip.Text = "Mint Chocolate Chip"
+        Me.rdoMintChocChip.UseVisualStyleBackColor = True
         '
         'groupBoxAdditions
         '
@@ -203,85 +203,15 @@ Partial Class Form1
         Me.groupBoxAdditions.TabStop = False
         Me.groupBoxAdditions.Text = "Additions"
         '
-        'chkPeanuts
+        'chkHotFudge
         '
-        Me.chkPeanuts.AutoSize = True
-        Me.chkPeanuts.Location = New System.Drawing.Point(6, 19)
-        Me.chkPeanuts.Name = "chkPeanuts"
-        Me.chkPeanuts.Size = New System.Drawing.Size(65, 17)
-        Me.chkPeanuts.TabIndex = 0
-        Me.chkPeanuts.Text = "Peanuts"
-        Me.chkPeanuts.UseVisualStyleBackColor = True
-        '
-        'chkWhipCream
-        '
-        Me.chkWhipCream.AutoSize = True
-        Me.chkWhipCream.Location = New System.Drawing.Point(6, 43)
-        Me.chkWhipCream.Name = "chkWhipCream"
-        Me.chkWhipCream.Size = New System.Drawing.Size(102, 17)
-        Me.chkWhipCream.TabIndex = 1
-        Me.chkWhipCream.Text = "Whipped Cream"
-        Me.chkWhipCream.UseVisualStyleBackColor = True
-        '
-        'chkCherries
-        '
-        Me.chkCherries.AutoSize = True
-        Me.chkCherries.Location = New System.Drawing.Point(6, 66)
-        Me.chkCherries.Name = "chkCherries"
-        Me.chkCherries.Size = New System.Drawing.Size(64, 17)
-        Me.chkCherries.TabIndex = 2
-        Me.chkCherries.Text = "Cherries"
-        Me.chkCherries.UseVisualStyleBackColor = True
-        '
-        'chkKiwi
-        '
-        Me.chkKiwi.AutoSize = True
-        Me.chkKiwi.Location = New System.Drawing.Point(6, 89)
-        Me.chkKiwi.Name = "chkKiwi"
-        Me.chkKiwi.Size = New System.Drawing.Size(45, 17)
-        Me.chkKiwi.TabIndex = 3
-        Me.chkKiwi.Text = "Kiwi"
-        Me.chkKiwi.UseVisualStyleBackColor = True
-        '
-        'chkOreo
-        '
-        Me.chkOreo.AutoSize = True
-        Me.chkOreo.Location = New System.Drawing.Point(6, 112)
-        Me.chkOreo.Name = "chkOreo"
-        Me.chkOreo.Size = New System.Drawing.Size(49, 17)
-        Me.chkOreo.TabIndex = 4
-        Me.chkOreo.Text = "Oreo"
-        Me.chkOreo.UseVisualStyleBackColor = True
-        '
-        'chkMMS
-        '
-        Me.chkMMS.AutoSize = True
-        Me.chkMMS.Location = New System.Drawing.Point(6, 135)
-        Me.chkMMS.Name = "chkMMS"
-        Me.chkMMS.Size = New System.Drawing.Size(73, 17)
-        Me.chkMMS.TabIndex = 5
-        Me.chkMMS.Text = "M and Ms"
-        Me.chkMMS.UseVisualStyleBackColor = True
-        '
-        'chkStrawberries
-        '
-        Me.chkStrawberries.AutoSize = True
-        Me.chkStrawberries.Location = New System.Drawing.Point(6, 158)
-        Me.chkStrawberries.Name = "chkStrawberries"
-        Me.chkStrawberries.Size = New System.Drawing.Size(84, 17)
-        Me.chkStrawberries.TabIndex = 6
-        Me.chkStrawberries.Text = "Strawberries"
-        Me.chkStrawberries.UseVisualStyleBackColor = True
-        '
-        'chkBrownieChunk
-        '
-        Me.chkBrownieChunk.AutoSize = True
-        Me.chkBrownieChunk.Location = New System.Drawing.Point(6, 181)
-        Me.chkBrownieChunk.Name = "chkBrownieChunk"
-        Me.chkBrownieChunk.Size = New System.Drawing.Size(103, 17)
-        Me.chkBrownieChunk.TabIndex = 7
-        Me.chkBrownieChunk.Text = "Brownie Chunks"
-        Me.chkBrownieChunk.UseVisualStyleBackColor = True
+        Me.chkHotFudge.AutoSize = True
+        Me.chkHotFudge.Location = New System.Drawing.Point(6, 227)
+        Me.chkHotFudge.Name = "chkHotFudge"
+        Me.chkHotFudge.Size = New System.Drawing.Size(76, 17)
+        Me.chkHotFudge.TabIndex = 9
+        Me.chkHotFudge.Text = "Hot Fudge"
+        Me.chkHotFudge.UseVisualStyleBackColor = True
         '
         'chkCookieDough
         '
@@ -293,15 +223,85 @@ Partial Class Form1
         Me.chkCookieDough.Text = "Cookie Dough"
         Me.chkCookieDough.UseVisualStyleBackColor = True
         '
-        'chkHotFudge
+        'chkBrownieChunk
         '
-        Me.chkHotFudge.AutoSize = True
-        Me.chkHotFudge.Location = New System.Drawing.Point(6, 227)
-        Me.chkHotFudge.Name = "chkHotFudge"
-        Me.chkHotFudge.Size = New System.Drawing.Size(76, 17)
-        Me.chkHotFudge.TabIndex = 9
-        Me.chkHotFudge.Text = "Hot Fudge"
-        Me.chkHotFudge.UseVisualStyleBackColor = True
+        Me.chkBrownieChunk.AutoSize = True
+        Me.chkBrownieChunk.Location = New System.Drawing.Point(6, 181)
+        Me.chkBrownieChunk.Name = "chkBrownieChunk"
+        Me.chkBrownieChunk.Size = New System.Drawing.Size(103, 17)
+        Me.chkBrownieChunk.TabIndex = 7
+        Me.chkBrownieChunk.Text = "Brownie Chunks"
+        Me.chkBrownieChunk.UseVisualStyleBackColor = True
+        '
+        'chkStrawberries
+        '
+        Me.chkStrawberries.AutoSize = True
+        Me.chkStrawberries.Location = New System.Drawing.Point(6, 158)
+        Me.chkStrawberries.Name = "chkStrawberries"
+        Me.chkStrawberries.Size = New System.Drawing.Size(84, 17)
+        Me.chkStrawberries.TabIndex = 6
+        Me.chkStrawberries.Text = "Strawberries"
+        Me.chkStrawberries.UseVisualStyleBackColor = True
+        '
+        'chkMMS
+        '
+        Me.chkMMS.AutoSize = True
+        Me.chkMMS.Location = New System.Drawing.Point(6, 135)
+        Me.chkMMS.Name = "chkMMS"
+        Me.chkMMS.Size = New System.Drawing.Size(73, 17)
+        Me.chkMMS.TabIndex = 5
+        Me.chkMMS.Text = "M and Ms"
+        Me.chkMMS.UseVisualStyleBackColor = True
+        '
+        'chkOreo
+        '
+        Me.chkOreo.AutoSize = True
+        Me.chkOreo.Location = New System.Drawing.Point(6, 112)
+        Me.chkOreo.Name = "chkOreo"
+        Me.chkOreo.Size = New System.Drawing.Size(49, 17)
+        Me.chkOreo.TabIndex = 4
+        Me.chkOreo.Text = "Oreo"
+        Me.chkOreo.UseVisualStyleBackColor = True
+        '
+        'chkKiwi
+        '
+        Me.chkKiwi.AutoSize = True
+        Me.chkKiwi.Location = New System.Drawing.Point(6, 89)
+        Me.chkKiwi.Name = "chkKiwi"
+        Me.chkKiwi.Size = New System.Drawing.Size(45, 17)
+        Me.chkKiwi.TabIndex = 3
+        Me.chkKiwi.Text = "Kiwi"
+        Me.chkKiwi.UseVisualStyleBackColor = True
+        '
+        'chkCherries
+        '
+        Me.chkCherries.AutoSize = True
+        Me.chkCherries.Location = New System.Drawing.Point(6, 66)
+        Me.chkCherries.Name = "chkCherries"
+        Me.chkCherries.Size = New System.Drawing.Size(64, 17)
+        Me.chkCherries.TabIndex = 2
+        Me.chkCherries.Text = "Cherries"
+        Me.chkCherries.UseVisualStyleBackColor = True
+        '
+        'chkWhipCream
+        '
+        Me.chkWhipCream.AutoSize = True
+        Me.chkWhipCream.Location = New System.Drawing.Point(6, 43)
+        Me.chkWhipCream.Name = "chkWhipCream"
+        Me.chkWhipCream.Size = New System.Drawing.Size(102, 17)
+        Me.chkWhipCream.TabIndex = 1
+        Me.chkWhipCream.Text = "Whipped Cream"
+        Me.chkWhipCream.UseVisualStyleBackColor = True
+        '
+        'chkPeanuts
+        '
+        Me.chkPeanuts.AutoSize = True
+        Me.chkPeanuts.Location = New System.Drawing.Point(6, 19)
+        Me.chkPeanuts.Name = "chkPeanuts"
+        Me.chkPeanuts.Size = New System.Drawing.Size(65, 17)
+        Me.chkPeanuts.TabIndex = 0
+        Me.chkPeanuts.Text = "Peanuts"
+        Me.chkPeanuts.UseVisualStyleBackColor = True
         '
         'groupBoxTotal
         '
@@ -318,44 +318,17 @@ Partial Class Form1
         Me.groupBoxTotal.TabStop = False
         Me.groupBoxTotal.Text = "Costs and Total"
         '
-        'scoopCost
+        'lblAdditionCostOutput
         '
-        Me.scoopCost.AutoSize = True
-        Me.scoopCost.Location = New System.Drawing.Point(7, 22)
-        Me.scoopCost.Name = "scoopCost"
-        Me.scoopCost.Size = New System.Drawing.Size(68, 13)
-        Me.scoopCost.TabIndex = 10
-        Me.scoopCost.Text = "Scoop Cost: "
-        '
-        'additionsCost
-        '
-        Me.additionsCost.AutoSize = True
-        Me.additionsCost.Location = New System.Drawing.Point(6, 53)
-        Me.additionsCost.Name = "additionsCost"
-        Me.additionsCost.Size = New System.Drawing.Size(80, 13)
-        Me.additionsCost.TabIndex = 10
-        Me.additionsCost.Text = "Additions Cost: "
-        '
-        'lblTotalCostOutput
-        '
-        Me.lblTotalCostOutput.BackColor = System.Drawing.Color.White
-        Me.lblTotalCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblTotalCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalCostOutput.ForeColor = System.Drawing.Color.DarkGreen
-        Me.lblTotalCostOutput.Location = New System.Drawing.Point(267, 16)
-        Me.lblTotalCostOutput.Name = "lblTotalCostOutput"
-        Me.lblTotalCostOutput.Size = New System.Drawing.Size(105, 23)
-        Me.lblTotalCostOutput.TabIndex = 10
-        Me.lblTotalCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'totalCost
-        '
-        Me.totalCost.AutoSize = True
-        Me.totalCost.Location = New System.Drawing.Point(203, 22)
-        Me.totalCost.Name = "totalCost"
-        Me.totalCost.Size = New System.Drawing.Size(58, 13)
-        Me.totalCost.TabIndex = 10
-        Me.totalCost.Text = "Total Cost:"
+        Me.lblAdditionCostOutput.BackColor = System.Drawing.Color.White
+        Me.lblAdditionCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblAdditionCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAdditionCostOutput.ForeColor = System.Drawing.Color.DarkGreen
+        Me.lblAdditionCostOutput.Location = New System.Drawing.Point(81, 47)
+        Me.lblAdditionCostOutput.Name = "lblAdditionCostOutput"
+        Me.lblAdditionCostOutput.Size = New System.Drawing.Size(105, 23)
+        Me.lblAdditionCostOutput.TabIndex = 10
+        Me.lblAdditionCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'lblScoopCostOutput
         '
@@ -369,17 +342,44 @@ Partial Class Form1
         Me.lblScoopCostOutput.TabIndex = 10
         Me.lblScoopCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'lblAdditionCostOutput
+        'totalCost
         '
-        Me.lblAdditionCostOutput.BackColor = System.Drawing.Color.White
-        Me.lblAdditionCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblAdditionCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAdditionCostOutput.ForeColor = System.Drawing.Color.DarkGreen
-        Me.lblAdditionCostOutput.Location = New System.Drawing.Point(81, 47)
-        Me.lblAdditionCostOutput.Name = "lblAdditionCostOutput"
-        Me.lblAdditionCostOutput.Size = New System.Drawing.Size(105, 23)
-        Me.lblAdditionCostOutput.TabIndex = 10
-        Me.lblAdditionCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.totalCost.AutoSize = True
+        Me.totalCost.Location = New System.Drawing.Point(203, 22)
+        Me.totalCost.Name = "totalCost"
+        Me.totalCost.Size = New System.Drawing.Size(58, 13)
+        Me.totalCost.TabIndex = 10
+        Me.totalCost.Text = "Total Cost:"
+        '
+        'lblTotalCostOutput
+        '
+        Me.lblTotalCostOutput.BackColor = System.Drawing.Color.White
+        Me.lblTotalCostOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTotalCostOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalCostOutput.ForeColor = System.Drawing.Color.DarkGreen
+        Me.lblTotalCostOutput.Location = New System.Drawing.Point(267, 16)
+        Me.lblTotalCostOutput.Name = "lblTotalCostOutput"
+        Me.lblTotalCostOutput.Size = New System.Drawing.Size(105, 23)
+        Me.lblTotalCostOutput.TabIndex = 10
+        Me.lblTotalCostOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'additionsCost
+        '
+        Me.additionsCost.AutoSize = True
+        Me.additionsCost.Location = New System.Drawing.Point(6, 53)
+        Me.additionsCost.Name = "additionsCost"
+        Me.additionsCost.Size = New System.Drawing.Size(80, 13)
+        Me.additionsCost.TabIndex = 10
+        Me.additionsCost.Text = "Additions Cost: "
+        '
+        'scoopCost
+        '
+        Me.scoopCost.AutoSize = True
+        Me.scoopCost.Location = New System.Drawing.Point(7, 22)
+        Me.scoopCost.Name = "scoopCost"
+        Me.scoopCost.Size = New System.Drawing.Size(68, 13)
+        Me.scoopCost.TabIndex = 10
+        Me.scoopCost.Text = "Scoop Cost: "
         '
         'Form1
         '
@@ -387,7 +387,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Page543_4.My.Resources.Resources.ice_cream
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(402, 475)
+        Me.ClientSize = New System.Drawing.Size(402, 471)
         Me.Controls.Add(Me.groupBoxTotal)
         Me.Controls.Add(Me.groupBoxAdditions)
         Me.Controls.Add(Me.groupBoxFlavors)
